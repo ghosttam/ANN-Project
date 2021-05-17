@@ -80,7 +80,7 @@ plt.plot(hist.history['val_loss'])
 plt.title('Model loss')
 plt.ylabel('Loss')
 plt.xlabel('Epoch')
-plt.legend(['Train', 'Val'], loc='upper right')
+plt.legend(['Train', 'Test'], loc='upper right')
 plt.show()
 
 # visualize the training accuracy and the validation accuracy to see if the model is overfitting
@@ -89,7 +89,7 @@ plt.plot(hist.history['val_accuracy'])
 plt.title('Model accuracy')
 plt.ylabel('Accuracy')
 plt.xlabel('Epoch')
-plt.legend(['Train', 'Val'], loc='lower right')
+plt.legend(['Train', 'Test'], loc='lower right')
 plt.show()
 
 # Make a prediction & print the actual values
