@@ -7,7 +7,7 @@ from sklearn import preprocessing
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 import matplotlib.pyplot as plt
 
-plt.style.use('fivethirtyeight')
+plt.style.use('classic')
 
 # IMPORT DATA #
 data = pd.read_csv('diabetes.csv')
